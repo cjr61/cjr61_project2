@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var god: UITextField!
+    @IBOutlet weak var pantheon: UITextField!
+    @IBOutlet weak var godClass: UITextField!
+    @IBOutlet weak var range: UITextField!
+    @IBOutlet weak var godTitle: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
