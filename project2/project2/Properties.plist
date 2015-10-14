@@ -3,29 +3,75 @@
 <plist version="1.0">
 <dict>
 	<key>AttackRange</key>
-	<string></string>
+	<dict>
+		<key>Ranged</key>
+		<string>Ranged</string>
+		<key>Melee</key>
+		<string>Melee</string>
+	</dict>
 	<key>Description</key>
-	<string></string>
+	<dict>
+		<key>Athena</key>
+		<string>Goddess of Wisdom</string>
+		<key>Bellona</key>
+		<string>Goddess of War</string>
+		<key>Chaac</key>
+		<string>God of Rain</string>
+		<key>Kali</key>
+		<string>Goddess of Destruction</string>
+		<key>Neith</key>
+		<string>Weaver of Fate</string>
+		<key>Nu Wa</key>
+		<string>Guardian of Heaven</string>
+		<key>Sol</key>
+		<string>Goddess of the Sun</string>
+	</dict>
 	<key>Class</key>
-	<string></string>
+	<dict>
+		<key>Assassin</key>
+		<string>Assassin</string>
+		<key>Mage</key>
+		<string>Mage</string>
+		<key>Guardian</key>
+		<string>Guardian</string>
+		<key>Warrior</key>
+		<string>Warrior</string>
+		<key>Hunter</key>
+		<string>Hunter</string>
+	</dict>
 	<key>Pantheon</key>
-	<string></string>
+	<dict>
+		<key>Egyprian</key>
+		<string>Egyptian</string>
+		<key>Norse</key>
+		<string>Norse</string>
+		<key>Hindu</key>
+		<string>Hindu</string>
+		<key>Mayan</key>
+		<string>Mayan</string>
+		<key>Chinese</key>
+		<string>Chinese</string>
+		<key>Roman</key>
+		<string>Roman</string>
+		<key>Greek</key>
+		<string>Greek</string>
+	</dict>
 	<key>God</key>
 	<dict>
-		<key>Nu Wa</key>
-		<string></string>
-		<key>Sol</key>
-		<string></string>
-		<key>Neith</key>
-		<string></string>
-		<key>Chaac</key>
-		<string></string>
-		<key>Kali</key>
-		<string></string>
 		<key>Athena</key>
-		<string></string>
+		<string>Athena</string>
 		<key>Bellona</key>
-		<string></string>
+		<string>Bellona</string>
+		<key>Chaac</key>
+		<string>Chaac</string>
+		<key>Kali</key>
+		<string>Kali</string>
+		<key>Neith</key>
+		<string>Neith</string>
+		<key>Nu Wa</key>
+		<string>Nu Wa</string>
+		<key>Sol</key>
+		<string>Sol</string>
 	</dict>
 </dict>
 </plist>
