@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttackRange</key>
+	<string></string>
+	<key>Description</key>
+	<string></string>
+	<key>Class</key>
+	<string></string>
+	<key>Pantheon</key>
+	<string></string>
+	<key>God</key>
+	<dict>
+		<key>Sol</key>
+		<string></string>
+		<key>Serqet</key>
+		<string></string>
+		<key>Ao Kuang</key>
+		<string></string>
+		<key>Kali</key>
+		<string></string>
+		<key>Zues</key>
+		<string></string>
+		<key>Bellona</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
