@@ -12,15 +12,17 @@
 	<string></string>
 	<key>God</key>
 	<dict>
+		<key>Nu Wa</key>
+		<string></string>
 		<key>Sol</key>
 		<string></string>
-		<key>Serqet</key>
+		<key>Neith</key>
 		<string></string>
-		<key>Ao Kuang</key>
+		<key>Chaac</key>
 		<string></string>
 		<key>Kali</key>
 		<string></string>
-		<key>Zues</key>
+		<key>Athena</key>
 		<string></string>
 		<key>Bellona</key>
 		<string></string>
