@@ -38,7 +38,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        var godName = god.text
+        let godName = god.text
         print(godName)
         
         godTitle.text = data?["Description"]![god.text!]
@@ -46,9 +46,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         godClass.text = data?["Class"]![god.text!]
         range.text = data?["AttackRange"]![god.text!]
         
+        self.view.endEditing(true)
+        
         return true
     }
-    
     
     
     
