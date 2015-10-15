@@ -13,7 +13,7 @@
 		32FB689E1BCEB5B1006D6161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FB689D1BCEB5B1006D6161 /* Assets.xcassets */; };
 		32FB68AC1BCEB5B1006D6161 /* project2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB68AB1BCEB5B1006D6161 /* project2Tests.swift */; };
 		32FB68B71BCEB5B1006D6161 /* project2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB68B61BCEB5B1006D6161 /* project2UITests.swift */; };
-		32FB68C71BCEBB7D006D6161 /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32FB68C61BCEBB7D006D6161 /* Properties.plist */; };
+		32FB68C71BCEBB7D006D6161 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32FB68C61BCEBB7D006D6161 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		32FB68B21BCEB5B1006D6161 /* project2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FB68B61BCEB5B1006D6161 /* project2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project2UITests.swift; sourceTree = "<group>"; };
 		32FB68B81BCEB5B1006D6161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32FB68C61BCEBB7D006D6161 /* Properties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Properties.plist; sourceTree = "<group>"; };
+		32FB68C61BCEBB7D006D6161 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				32FB689A1BCEB5B1006D6161 /* Main.storyboard */,
 				32FB689D1BCEB5B1006D6161 /* Assets.xcassets */,
 				32FB68A21BCEB5B1006D6161 /* Info.plist */,
-				32FB68C61BCEBB7D006D6161 /* Properties.plist */,
+				32FB68C61BCEBB7D006D6161 /* data.plist */,
 			);
 			path = project2;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			files = (
 				32FB689E1BCEB5B1006D6161 /* Assets.xcassets in Resources */,
 				32FB689C1BCEB5B1006D6161 /* Main.storyboard in Resources */,
-				32FB68C71BCEBB7D006D6161 /* Properties.plist in Resources */,
+				32FB68C71BCEBB7D006D6161 /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

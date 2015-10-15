@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var god: UITextField!
     @IBOutlet weak var pantheon: UITextField!
@@ -16,11 +16,42 @@ class ViewController: UIViewController {
     @IBOutlet weak var range: UITextField!
     @IBOutlet weak var godTitle: UITextField!
     
+    var data: Dictionary<String, Dictionary<String, String>>?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        god.delegate = self
+        
+         data = {
+            guard let path = NSBundle.mainBundle().pathForResource("data", ofType: "plist") else {
+                print("Invalid path for plist")
+                return nil
+            }
+            
+            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
+            }()
+    
+        print(data?["God"]!["Kali"])
+        print(data?["Description"]!["Kali"])
+        
     }
-
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        var godName = god.text
+        print(godName)
+        
+        godTitle.text = data?["Description"]![god.text!]
+        pantheon.text = data?["Pantheon"]![god.text!]
+        godClass.text = data?["Class"]![god.text!]
+        range.text = data?["AttackRange"]![god.text!]
+        
+        return true
+    }
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

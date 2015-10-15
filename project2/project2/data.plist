@@ -4,10 +4,20 @@
 <dict>
 	<key>AttackRange</key>
 	<dict>
-		<key>Ranged</key>
-		<string>Ranged</string>
-		<key>Melee</key>
+		<key>Athena</key>
 		<string>Melee</string>
+		<key>Bellona</key>
+		<string>Melee</string>
+		<key>Chaac</key>
+		<string>Melee</string>
+		<key>Kali</key>
+		<string>Melee</string>
+		<key>Neith</key>
+		<string>Ranged</string>
+		<key>Nu Wa</key>
+		<string>Ranged</string>
+		<key>Sol</key>
+		<string>Ranged</string>
 	</dict>
 	<key>Description</key>
 	<dict>
@@ -28,33 +38,37 @@
 	</dict>
 	<key>Class</key>
 	<dict>
-		<key>Assassin</key>
-		<string>Assassin</string>
-		<key>Mage</key>
-		<string>Mage</string>
-		<key>Guardian</key>
+		<key>Athena</key>
 		<string>Guardian</string>
-		<key>Warrior</key>
+		<key>Bellona</key>
 		<string>Warrior</string>
-		<key>Hunter</key>
+		<key>Chaac</key>
+		<string>Warrior</string>
+		<key>Kali</key>
+		<string>Assassin</string>
+		<key>Neith</key>
 		<string>Hunter</string>
+		<key>Nu Wa</key>
+		<string>Mage</string>
+		<key>Sol</key>
+		<string>Mage</string>
 	</dict>
 	<key>Pantheon</key>
 	<dict>
-		<key>Egyprian</key>
-		<string>Egyptian</string>
-		<key>Norse</key>
-		<string>Norse</string>
-		<key>Hindu</key>
-		<string>Hindu</string>
-		<key>Mayan</key>
-		<string>Mayan</string>
-		<key>Chinese</key>
-		<string>Chinese</string>
-		<key>Roman</key>
-		<string>Roman</string>
-		<key>Greek</key>
+		<key>Athena</key>
 		<string>Greek</string>
+		<key>Bellona</key>
+		<string>Roman</string>
+		<key>Chaac</key>
+		<string>Mayan</string>
+		<key>Kali</key>
+		<string>Hindu</string>
+		<key>Neith</key>
+		<string>Egyptian</string>
+		<key>Nu Wa</key>
+		<string>Chinese</string>
+		<key>Sol</key>
+		<string>Norse</string>
 	</dict>
 	<key>God</key>
 	<dict>
